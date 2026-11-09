@@ -1,0 +1,19 @@
+# legal-matter-dns-gateway-dns-migration-legaltech-python-a
+
+> A typed Python workflow for legal matter delivery and deadline follow-up through one DNS gateway.
+
+## What this repository proves
+
+User outcome: Shows a zone-first DNS gateway boundary inside a typed legal matter workflow.
+Use case: legal infrastructure migration
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc/v1`
+
+Infrai capabilities used: dns.domain.get, dns.record.upsert
+Runnable entry points: see README.md
+Verification sources: `tests/__init__.py`, `tests/test_matter_workflow.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

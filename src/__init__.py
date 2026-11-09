@@ -1,0 +1,1 @@
+"""Legal matter gateway example."""
